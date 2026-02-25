@@ -22,7 +22,7 @@
     <div class="col-md-7">
         <h1 class="h4">واکس داشبورد</h1>
         <p class="text-muted">
-            <span class="blink-price">60000 تومان</span>
+            <span class="price-blink-lg">60000 تومان</span>
         </p>
         <div class="position-relative">
             <img src="REPLACE_WITH_YOUR_GITHUB_RAW_URL_OR_OTHER_HOSTING" 
@@ -35,18 +35,20 @@
 </div>
 
 <style>
-@keyframes blinkBlackRed {
-    0% { color: black; }
-    50% { color: red; }
-    100% { color: black; }
+@keyframes priceBlink {
+    0% { color: #000000; }      /* مشکی خالص */
+    50% { color: #ff0000; }      /* قرمز خالص */
+    100% { color: #000000; }      /* مشکی خالص */
 }
 
-.blink-price {
-    font-weight: bold;
-    animation: blinkBlackRed 1s infinite;
+.price-blink-lg {
+    font-weight: 800;            /* بولدتر از حالت معمولی */
+    font-size: 1.5em;            /* 1.5 برابر بزرگتر */
+    animation: priceBlink 0.8s infinite; /* سرعت بیشتر (0.8 ثانیه) */
+    display: inline-block;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3); /* سایه ملایم برای جذابیت بیشتر */
 }
-</style>
-      <h4 class="text-danger"></h4>
+</style>      <h4 class="text-danger"></h4>
       <h5 class="mt-3">ویژگی ها:</h5>
        <p>- قدرت تمیزکنندگی بالا
 - براق کننده درجه یک
