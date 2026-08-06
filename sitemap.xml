@@ -68,10 +68,13 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://nanocnt.ir/index.html</loc>
+  <loc>https://nanocnt.ir/about.html</loc>
   <lastmod>2026-02-25T08:38:18+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.60</priority>
 </url>
-
-
+<url>
+  <loc>https://nanocnt.ir/contact.html</loc>
+  <lastmod>2026-02-25T08:38:18+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
 </urlset>
